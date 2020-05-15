@@ -1,10 +1,10 @@
 === Worldwide Breaking News Headlines ===
-Contributors: mhmrajib, ali_siddique
+Contributors: mhmrajib
 Donate link: https://www.paypal.me/mhmrajib/2
-Tags: News, Worldwide News, Breaking News, Headlines, Top News
-Requires at least: 3.9
-Tested up to: 5.2.2
-Stable tag: 1.5
+Tags: News, News Headlines, Breaking News, Headlines, widget
+Requires at least: 4.6
+Tested up to: 5.4.1
+Stable tag: 1.6
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -16,7 +16,8 @@ This Worldwide Breaking News Headlines plugin will display the world famous news
 What top stories is the BBC News running right now? [Worldwide Breaking News Headlines](http://www.hossnimubarak.com) is a simple plugin that will display world's 31 famous newspaper's top/recent/headlines in your website widget area. 
 Get an API Key from newsapi.org (Free or Paid) or use the free provided one and you are done!
 
-**Plugin Features:**
+
+**🌟 Plugin Features:**
 
 * Easy to install
 * Fully integrated in WordPress
@@ -28,47 +29,55 @@ Get an API Key from newsapi.org (Free or Paid) or use the free provided one and 
 * Very fast loading time
 * Responsive
 
-**Benefits you'll get by using this plugin:**
+
+**➡️ Benefits you'll get by using this plugin:**
 
 * Increase social involvement
 * Reaching unlimited people
 * Improve SEO
 * No coding required
 
-**Limitations for the free version:**
 
-This plugin using a free API generated from newsapi.org which has the following limitations-
+**➡️ Limitations for the free version:**
+
+This Breaking News Headlines plugin using a free API generated from newsapi.org which has the following limitations-
 
 * New articles/news/headlines available with 15 minute delay
 * 1,000 requests per day for a specific API Key
 * NewsAPI.org attribution required
 
-**How to remove the limitations?**
+
+**➡️ How to remove the limitations?**
 * Just go to newsapi.org and get your own API. You can buy one or use a free one by simply register their.
 * Use the API in the Plugin API key input field and you are done!
 
-== Upgraded Version ==
 
-* Another version of this plugin are available here [WP Top News](https://wordpress.org/plugins/wp-top-news)
+**➡️ Upgraded Version ==
+
+* Another version of Breaking News Headlines plugin are available here [WP Top News](https://wordpress.org/plugins/wp-top-news)
 * This new version is shortcoded, so you can display News in Post or Page section
 * We'll include more options there soon
 
-**Review/Feedback**
+
+**📋 Review/Feedback**
 
 If you find this plugin helpful, plese review/rate us. Share this plugin with your friends. This will help us to grow and work on more features. For any kind of issues or improvement please write us, and we are always ready to help you.
 
 
-**Other Plugins from [HM Plugins](http://www.hossnimubarak.com)**
+**🔥 Other Plugins from [HM Plugins](http://www.hossnimubarak.com)**
 
-* [HM Wc Product Advertiser](https://wordpress.org/plugins/hm-wc-product-advertiser/) Wocommerce Product Advertiser
-* [WP Books Gallery](https://wordpress.org/plugins/wp-books-gallery/) WP Books Gallery
-* [HM – Cool Author Box](https://wordpress.org/plugins/hm-cool-author-box-widget/) Author Box plugin
-* [WP Top News](https://wordpress.org/plugins/wp-top-news/) Top News, Breaking News, Headlines Plugin
-* [WP Scroll To Post](https://wordpress.org/plugins/wp-scroll-to-post/) Display random post(Single) at the bottom right corner
-* [HM Recent Posts Widget](https://wordpress.org/plugins/hm-recent-posts-widget/) Ticker Post plugin
-* [WP Alert Bars](https://wordpress.org/plugins/wp-alert-bars/) Notification/Alert box Plugin in Post/Page
-* [Tiny Bar](https://wordpress.org/plugins/tiny-bar/) Display a bar at Top or Bottom
-* [Classic Facebook LikeBox](https://wordpress.org/plugins/hm-simple-facebook-page/) Facebook LikeBox Plugin
+👉 [WP Top News](https://wordpress.org/plugins/wp-top-news/) Top News, Breaking News, Headlines Plugin
+👉 [Tiny Bar](https://wordpress.org/plugins/tiny-bar/) Display a bar at Top or Bottom
+👉 [WP Books Gallery](https://wordpress.org/plugins/wp-books-gallery/) WP Books Gallery
+👉 [WordPress Stripe Donation](https://wordpress.org/plugins/wp-stripe-donation/) This plugin allows you to collect donations via Stripe
+👉 [HM Product Catalog](https://wordpress.org/plugins/hm-product-catalog/) HM Product Catalog
+👉 [HM Resume Manager](https://wordpress.org/plugins/hm-resume-manager/) A resume manager plugin
+👉 [HM Wc Product Advertiser](https://wordpress.org/plugins/hm-wc-product-advertiser/) Wocommerce Product Advertiser
+👉 [HM – Cool Author Box](https://wordpress.org/plugins/hm-cool-author-box-widget/) Author Box plugin
+👉 [WP Scroll To Post](https://wordpress.org/plugins/wp-scroll-to-post/) Display random post(Single) at the bottom right corner
+👉 [HM Recent Posts Widget](https://wordpress.org/plugins/hm-recent-posts-widget/) Ticker Post plugin
+👉 [WP Alert Bars](https://wordpress.org/plugins/wp-alert-bars/) Notification/Alert box Plugin in Post/Page
+
 
 == Installation ==
 
