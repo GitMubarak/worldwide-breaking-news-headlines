@@ -143,6 +143,21 @@ Yes, we are working on it. Please stay with us.
 
 == Changelog ==
 
+= 1.6 =
+* General Border option added
+* News title length added
+* News title font size added
+* News title font style added
+* News title color added
+* News title hover color added
+* News title font weight added
+* Image border option added
+* Image border width added
+* Image border color added
+* Image border radius added
+* Styles updated to grid system
+* Code Updated and Bug Fixes
+
 = 1.5 =
 * 31 news paper source included
 * Desing improved

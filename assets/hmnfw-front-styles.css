@@ -1,0 +1,66 @@
+.hmnfw-main-wrapper {
+    width: 100%;
+    min-height: 100px;
+    padding: 5px;
+}
+
+.hmnfw-main-wrapper a.hmnfw-powered-by,
+.hmnfw-main-wrapper a.hmnfw-powered-by:hover {
+    font-size: 8px;
+    text-decoration: none;
+    color: #CCC;
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+}
+
+.hmnfw-feed-container {
+    border-bottom: 1px solid #DDD;
+    width: 100%;
+    min-height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 90px auto;
+    grid-gap: 5px;
+}
+
+.hmnfw-thumbnail {
+    border: 0px solid #009900;
+    min-height: 40px;
+    text-align: center;
+}
+
+.hmnfw-feeds {
+    border: 0px solid #FF0000;
+    min-height: 40px;
+}
+
+.hmnfw-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.hmnfw-feeds a.hmnfw-feeds-title {
+    margin: 0;
+    padding: 0;
+    display: block;
+    line-height: 18px!important;
+    text-decoration: none;
+    font-style: oblique;
+    border: 0px solid #000;
+    color: #222;
+}
+
+.hmnfw-feeds a.hmnfw-feeds-title:hover {
+    color: #666;
+}
+
+.hmnfw-feeds span {
+    margin-top: 5px;
+    font-size: 11px;
+    color: #999999;
+    display: block;
+    line-height: 11px;
+}

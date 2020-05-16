@@ -1,0 +1,9 @@
+p label {
+    min-width: 150px!important;
+    display: inline-block;
+}
+
+p.section-head {
+    padding: 10px;
+    background: #EAEAEA;
+}
