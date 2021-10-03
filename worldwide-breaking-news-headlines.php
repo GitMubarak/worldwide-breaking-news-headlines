@@ -3,7 +3,7 @@
  * Plugin Name: 	Worldwide Breaking News Headlines
  * Plugin URI:		http://wordpress.org/plugins/worldwide-breaking-news-headlines/
  * Description: 	This Worldwide Breaking News Headlines plugin will display the world famous newspaper's top/recent news/headlines in your sidebar/widget area.
- * Version: 		1.6
+ * Version: 		1.7
  * Author: 			Hossni Mubarak
  * Author URI: 		http://www.hossnimubarak.com
  * License:         GPL-2.0+
@@ -19,7 +19,7 @@ define( 'HMNFW_SLUG', plugin_basename( __FILE__ ) );
 define( 'HMNFW_PREFIX', 'hmnfw_' );
 define( 'HMNFW_CLASSPREFIX', 'cls-hmnfw-' );
 define( 'HMNFW_TXT_DOMAIN', 'worldwide-breaking-news-headlines' );
-define( 'HMNFW_VERSION', '1.6' );
+define( 'HMNFW_VERSION', '1.7' );
 
 require_once HMNFW_PATH . 'inc/' . HMNFW_CLASSPREFIX . 'master.php';
 new HMNFW_Master();

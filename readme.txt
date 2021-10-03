@@ -1,15 +1,15 @@
 === Worldwide Breaking News Headlines ===
-Contributors: mhmrajib
-Donate link: https://www.paypal.me/mhmrajib/2
-Tags: News, News Headlines, Breaking News, Headlines, widget
-Requires at least: 4.6
-Tested up to: 5.4.1
-Stable tag: 1.6
-Requires PHP: 5.6
+Contributors: hmplugin, mhmrajib
+Donate link: https://www.paypal.me/mhmrajib
+Tags: News, Breaking News, Headlines, News Headlines, top news, recent news, free news plugin, best news plugin, wordpress news plugin, news plugin wordpress, online magazine
+Requires at least: 5.0
+Tested up to: 5.8.1
+Stable tag: 1.7
+Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This Worldwide Breaking News Headlines plugin will display the world famous newspaper's top/recent news/headlines in your sidebar/widget area.
+Worldwide Breaking News Headlines is the Best News Plugin for WordPress that will display world's 31 famous newspaper's Breaking News Headlines in your website.
 
 == Description ==
 
@@ -27,56 +27,84 @@ Get an API Key from newsapi.org (Free or Paid) or use the free provided one and 
 * Option for 31 newspaper source selection like: Al Jazeera English (New), CNN, BBC, The The Guardian (UK), The Economist(New), Fox News, NBC News etc.
 * Cached for 15 minutes 
 * Very fast loading time
-* Responsive
+* General Border option
+* News title length option
+* News title font size option
+* News title font style option
+* News title color option
+* News title hover color option
+* News title font weight option
+* Image border option
+* Image border width option
+* Image border color option
+* Image border radius option
 
 
 **➡️ Benefits you'll get by using this plugin:**
 
 * Increase social involvement
 * Reaching unlimited people
-* Improve SEO
+* Improve google ranking
 * No coding required
 
 
-**➡️ Limitations for the free version:**
+**➡️ Limitations:**
 
-This Breaking News Headlines plugin using a free API generated from newsapi.org which has the following limitations-
+* This plugin requires an API from newsapi.org to display news.
+* You have to collect your own API from newsapi.org
 
-* New articles/news/headlines available with 15 minute delay
-* 1,000 requests per day for a specific API Key
-* NewsAPI.org attribution required
-
-
-**➡️ How to remove the limitations?**
-* Just go to newsapi.org and get your own API. You can buy one or use a free one by simply register their.
-* Use the API in the Plugin API key input field and you are done!
+**Note: We do not have any business connection or benifit from newsapi. So you have your own decision to buy or use free API from them.**
 
 
-**➡️ Upgraded Version ==
+**🌟 Pro Features:**
 
-* Another version of Breaking News Headlines plugin are available here [WP Top News](https://wordpress.org/plugins/wp-top-news)
-* This new version is shortcoded, so you can display News in Post or Page section
-* We'll include more options there soon
+* Display News From 128 News Sources
+* Display News From 54 Countries
+* Display Multiple News Source in Different Views
+* Display Layout List/Grid via Shortcode
+* Control number of News via Shortcode
+* Multiple News block in a single page
+* Show-Hide description via Shortcode
+* Apply News Source via Shortcode
+* Control description length via Shortcode
+* News Category: News Source or Country Source
+* Country shortcoded option: country='us'
+* Max 100 News can be displayed
+
+[__Pro Live Demo__](https://demo.hmplugin.com/wp-top-news/)
+
+[youtube https://youtu.be/hfwet1ID0-A]
+
+[Please knock us via live chat to know more about Pro plan](https://hmplugin.com/)
 
 
-**📋 Review/Feedback**
+**👍 Give us a Feedback/Rating**
 
-If you find this plugin helpful, plese review/rate us. Share this plugin with your friends. This will help us to grow and work on more features. For any kind of issues or improvement please write us, and we are always ready to help you.
+If you find this plugin helpful, feel free to give us your valuable review. Rate us and share this plugin with your friends. This will motivate us and help us to grow.
+[Rate Us](https://wordpress.org/support/plugin/worldwide-breaking-news-headlines/reviews/#new-post)
 
 
-**🔥 Other Plugins from [HM Plugins](http://www.hossnimubarak.com)**
+= AUTHOR =
+Designed and Developed by **[HM Plugin](https://hmplugin.com/)**
 
-👉 [WP Top News](https://wordpress.org/plugins/wp-top-news/) Top News, Breaking News, Headlines Plugin
-👉 [Tiny Bar](https://wordpress.org/plugins/tiny-bar/) Display a bar at Top or Bottom
-👉 [WP Books Gallery](https://wordpress.org/plugins/wp-books-gallery/) WP Books Gallery
-👉 [WordPress Stripe Donation](https://wordpress.org/plugins/wp-stripe-donation/) This plugin allows you to collect donations via Stripe
-👉 [HM Product Catalog](https://wordpress.org/plugins/hm-product-catalog/) HM Product Catalog
-👉 [HM Resume Manager](https://wordpress.org/plugins/hm-resume-manager/) A resume manager plugin
-👉 [HM Wc Product Advertiser](https://wordpress.org/plugins/hm-wc-product-advertiser/) Wocommerce Product Advertiser
-👉 [HM – Cool Author Box](https://wordpress.org/plugins/hm-cool-author-box-widget/) Author Box plugin
+
+**🔥 Other Plugins from [HM Plugins](https://hmplugin.com)**
+
+👉 [WP Books Gallery](https://wordpress.org/plugins/wp-books-gallery/) Books Gallery Plugin for WordPress
+👉 [Worldwide Breaking News Headlines](https://wordpress.org/plugins/worldwide-breaking-news-headlines/) Breaking News, Headlines Widget Plugin for WordPress
+👉 [WP Top News](https://wordpress.org/plugins/wp-top-news/) Top News, Breaking News, Headlines Shortcoded Plugin for WordPress
+👉 [WordPress Stripe Donation](https://wordpress.org/plugins/wp-stripe-donation/) Donations Coolection Plugin for WordPress using Stripe Payement
+👉 [Tiny Bar](https://wordpress.org/plugins/tiny-bar/) Message Bar Plugin for WordPress to display Message at Top/Bottom Bar of a web page
+👉 [HM – Cool Author Box](https://wordpress.org/plugins/hm-cool-author-box-widget/) Author Box plugin for WordPress to display author info
+👉 [HM Resume Manager](https://wordpress.org/plugins/hm-resume-manager/) A Resume/CV Manager Plugin for WordPress
+👉 [HM Product Catalog](https://wordpress.org/plugins/hm-product-catalog/) A Product Catalog Plugin for WordPress
+👉 [HM Wc Product Advertiser](https://wordpress.org/plugins/hm-wc-product-advertiser/) Product Advertiser Plugin for Wocommerce
 👉 [WP Scroll To Post](https://wordpress.org/plugins/wp-scroll-to-post/) Display random post(Single) at the bottom right corner
-👉 [HM Recent Posts Widget](https://wordpress.org/plugins/hm-recent-posts-widget/) Ticker Post plugin
-👉 [WP Alert Bars](https://wordpress.org/plugins/wp-alert-bars/) Notification/Alert box Plugin in Post/Page
+👉 [HM Recent Posts Widget](https://wordpress.org/plugins/hm-recent-posts-widget/) Ticker Post plugin for WordPress
+👉 [WP Alert Bars](https://wordpress.org/plugins/wp-alert-bars/) Notification/Alert box Plugin for WordPress
+👉 [FaceBook LikeBox](https://wordpress.org/plugins/hm-simple-facebook-page/) A FaceBook LikeBox Plugin for WordPress
+👉 [WP Display FAQ](https://wordpress.org/plugins/wp-display-faq/) FAQs manager plugin for WordPress
+👉 [HM Logo Showcase](https://wordpress.org/plugins/hm-logo-showcase/) Logo manager plugin for WordPress
 
 
 == Installation ==
@@ -106,10 +134,6 @@ Install Worldwide Breaking News Headlines as a regular WordPress plugin. Here ar
 = I have installed the plugin. What next? =
 
 Please go to Appearance -> Widgets section. Serach for 'Worldwide Breaking News Headlines' and drag it to your sidebar area. Apply settigns. 
-
-= How can I remove powered by link? =
-
-This is Free API provided by newsapi.org. So, there is nothing we can do right now.
 
 = I have changed News source, but news feed not uppdating =
 
@@ -142,6 +166,10 @@ Yes, we are working on it. Please stay with us.
 7. Showing Worldwide Breaking News Headlines in Footer
 
 == Changelog ==
+
+= 1.7 =
+* News source removed from title
+* Code optimtized
 
 = 1.6 =
 * General Border option added

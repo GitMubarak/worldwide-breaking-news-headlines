@@ -36,10 +36,10 @@ class HMNFW_Widget extends WP_Widget {
 		echo $args['before_widget'];
 
 		$newsSource 			= (isset($instance['newsSource'])) ? $instance['newsSource'] : 'cnn';
-		$apiKey 				= (isset($instance['apiKey'])) ? $instance['apiKey'] : '972bbddf9e73488db0a0db78a981c4d8';
+		$apiKey 				= (isset($instance['apiKey'])) ? $instance['apiKey'] : '';
 		//print_r($instance);
 		if ( ! empty( $instance['title'] ) ) {
-			echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'] .': '. ucfirst( $newsSource ) ). $args['after_title'];
+			echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'] ). $args['after_title'];
 		}
 
 		$numberOfNews 			= (isset($instance[ 'numberOfNews' ])) ? $instance[ 'numberOfNews' ] : 5;
@@ -98,7 +98,6 @@ class HMNFW_Widget extends WP_Widget {
 				</div>
 				<?php 
 			endfor; ?>
-			<a href="https://newsapi.org/" target="_blank" class="hmnfw-powered-by">Powered by NewsAPI.org</a>
 		</div>
 		<?php
 		echo $args['after_widget'];
@@ -117,7 +116,7 @@ class HMNFW_Widget extends WP_Widget {
 		$title 								= $instance['title'];
 		$numberOfNews 						= (isset($instance['numberOfNews'])) ? $instance['numberOfNews'] : 5;
 		$newsSource 						= (isset($instance['newsSource'])) ? $instance['newsSource'] : 'cnn';
-		$apiKey 							= (isset($instance['apiKey'])) ? $instance['apiKey'] : '972bbddf9e73488db0a0db78a981c4d8';
+		$apiKey 							= (isset($instance['apiKey'])) ? $instance['apiKey'] : '';
 		
 		$instance['general_border_enable']	= ( isset($instance['general_border_enable']) && filter_var( $instance['general_border_enable'], FILTER_SANITIZE_STRING ) ) ? $instance['general_border_enable'] : '';
 
@@ -132,7 +131,6 @@ class HMNFW_Widget extends WP_Widget {
 			<label for="<?php echo $this->get_field_id( 'title' ); ?>">API Key:</label>
 			<input class="widefat" id="<?php echo $this->get_field_id( 'apiKey' ); ?>" name="<?php echo $this->get_field_name( 'apiKey' ); ?>" type="text" value="<?php echo esc_attr( $apiKey ); ?>">
 		</p>
-		<code>Default: 972bbddf9e73488db0a0db78a981c4d8</code>
 		<p>
 			<label for="<?php echo $this->get_field_id( 'numberOfNews' ); ?>">Number of News:</label>
 			<input class="tiny-text" id="<?php echo $this->get_field_id( 'numberOfNews' ); ?>" name="<?php echo $this->get_field_name( 'numberOfNews' ); ?>" type="number" value="<?php echo esc_attr( $numberOfNews ); ?>" step="1" min="5" max="10">
