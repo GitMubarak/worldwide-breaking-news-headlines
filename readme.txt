@@ -3,8 +3,8 @@ Contributors: hmplugin, mhmrajib
 Donate link: https://www.paypal.me/mhmrajib
 Tags: News, Breaking News, Headlines, News Headlines, top news, recent news, free news plugin, best news plugin, wordpress news plugin, news plugin wordpress, online magazine
 Requires at least: 5.0
-Tested up to: 5.8.1
-Stable tag: 1.7
+Tested up to: 5.9
+Stable tag: 1.8
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,7 +13,7 @@ Worldwide Breaking News Headlines is the Best News Plugin for WordPress that wil
 
 == Description ==
 
-What top stories is the BBC News running right now? [Worldwide Breaking News Headlines](http://www.hossnimubarak.com) is a simple plugin that will display world's 31 famous newspaper's top/recent/headlines in your website widget area. 
+What top stories is the BBC News running right now? [Worldwide Breaking News Headlines](https://hmplugin.com/) is a simple plugin that will display world's 31 famous newspaper's top/recent/headlines in your website widget area. 
 Get an API Key from newsapi.org (Free or Paid) or use the free provided one and you are done!
 
 
@@ -71,11 +71,11 @@ Get an API Key from newsapi.org (Free or Paid) or use the free provided one and 
 * Country shortcoded option: country='us'
 * Max 100 News can be displayed
 
-[__Pro Live Demo__](https://demo.hmplugin.com/wp-top-news/)
+[__Pro Live Demo__](https://topnews.hmplugin.com/demo/)
 
 [youtube https://youtu.be/hfwet1ID0-A]
 
-[Please knock us via live chat to know more about Pro plan](https://hmplugin.com/)
+[Get Pro Plan](https://topnews.hmplugin.com/)
 
 
 **👍 Give us a Feedback/Rating**
@@ -166,6 +166,9 @@ Yes, we are working on it. Please stay with us.
 7. Showing Worldwide Breaking News Headlines in Footer
 
 == Changelog ==
+
+= 1.8 =
+* Minor issue fixed
 
 = 1.7 =
 * News source removed from title
