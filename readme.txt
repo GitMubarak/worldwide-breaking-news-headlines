@@ -2,9 +2,9 @@
 Contributors: hmplugin, mhmrajib
 Donate link: https://www.paypal.me/mhmrajib
 Tags: News, Breaking News, Headlines, News Headlines, top news, recent news, free news plugin, best news plugin, wordpress news plugin, news plugin wordpress, online magazine
-Requires at least: 5.0
-Tested up to: 5.9
-Stable tag: 1.8
+Requires at least: 5.2
+Tested up to: 5.9.3
+Stable tag: 1.9
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -166,6 +166,9 @@ Yes, we are working on it. Please stay with us.
 7. Showing Worldwide Breaking News Headlines in Footer
 
 == Changelog ==
+
+= 1.9 =
+* Minor issue fixed
 
 = 1.8 =
 * Minor issue fixed

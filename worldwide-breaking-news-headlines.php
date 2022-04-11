@@ -1,17 +1,23 @@
 <?php
 /**
- * Plugin Name: 	Worldwide Breaking News Headlines
- * Plugin URI:		http://wordpress.org/plugins/worldwide-breaking-news-headlines/
- * Description: 	This Worldwide Breaking News Headlines plugin will display the world famous newspaper's top/recent news/headlines in your sidebar/widget area.
- * Version: 		1.8
- * Author: 			Hossni Mubarak
- * Author URI: 		http://www.hossnimubarak.com
- * License:         GPL-2.0+
- * License URI:     http://www.gnu.org/licenses/gpl-2.0.txt
+ * Plugin Name: 	    Worldwide Breaking News Headlines
+ * Plugin URI:		    http://wordpress.org/plugins/worldwide-breaking-news-headlines/
+ * Description: 	    This Worldwide Breaking News Headlines plugin will display the world famous newspaper's top/recent news/headlines in your sidebar/widget area.
+ * Version: 		    1.9
+ * Author: 			    Hossni Mubarak
+ * Author URI: 		    https://www.hossnimubarak.com
+ * Requires at least:   5.2
+ * Requires PHP:        7.2
+ * Tested up to:        5.9.3
+ * Text Domain:         worldwide-breaking-news-headlines
+ * Domain Path:         /languages/
+ * License:             GPL-2.0+
+ * License URI:         http://www.gnu.org/licenses/gpl-2.0.txt
 */
 
-if ( ! defined( 'WPINC' ) ) { die; }
-if ( ! defined('ABSPATH') ) { exit; }
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
 
 define( 'HMNFW_PATH', plugin_dir_path( __FILE__ ) );
 define( 'HMNFW_ASSETS', plugins_url( '/assets/', __FILE__ ) );
@@ -19,7 +25,7 @@ define( 'HMNFW_SLUG', plugin_basename( __FILE__ ) );
 define( 'HMNFW_PREFIX', 'hmnfw_' );
 define( 'HMNFW_CLASSPREFIX', 'cls-hmnfw-' );
 define( 'HMNFW_TXT_DOMAIN', 'worldwide-breaking-news-headlines' );
-define( 'HMNFW_VERSION', '1.8' );
+define( 'HMNFW_VERSION', '1.9' );
 
 require_once HMNFW_PATH . 'inc/' . HMNFW_CLASSPREFIX . 'master.php';
 new HMNFW_Master();
