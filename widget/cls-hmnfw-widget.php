@@ -120,7 +120,7 @@ class HMNFW_Widget extends WP_Widget {
 		
 		$instance['general_border_enable']	= ( isset($instance['general_border_enable']) && filter_var( $instance['general_border_enable'], FILTER_SANITIZE_STRING ) ) ? $instance['general_border_enable'] : '';
 
-		$instance['news_title_font_style'] 	= filter_var( $instance['news_title_font_style'], FILTER_SANITIZE_STRING ) ? $instance['news_title_font_style'] : 'normal';
+		$instance['news_title_font_style'] 	= isset( $instance['news_title_font_style'] ) ? $instance['news_title_font_style'] : 'normal';
 		$instance['news_title_font_weight']	= ( isset($instance['news_title_font_weight']) && filter_var( $instance['news_title_font_weight'], FILTER_SANITIZE_STRING ) ) ? $instance['news_title_font_weight'] : 'normal';
 		?>
 		<p>
@@ -212,6 +212,8 @@ class HMNFW_Widget extends WP_Widget {
 			<label for="<?php echo esc_attr( $this->get_field_id( 'news_title_color_hover' ) ); ?>"><?php _e( 'Hover Color', HMNFW_TXT_DOMAIN ); ?>:</label>
 			<input type="text" class="hmnfw-color-picker" id="<?php echo esc_attr( $this->get_field_id('news_title_color_hover') ); ?>" name="<?php echo esc_attr( $this->get_field_name('news_title_color_hover') ); ?>" value="<?php echo esc_attr( $instance['news_title_color_hover'] ); ?>">
 		</p>
+		<p style="margin-bottom: 20px! important; width: 100%; text-align:center;"><a href='https://www.paypal.me/mhmrajib' class="button button-primary" target="_blank">Donate us to keep this plugin alive!</a></p>
+		
 		<?php
 	}
 	

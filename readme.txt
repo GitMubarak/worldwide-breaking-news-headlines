@@ -168,7 +168,8 @@ Yes, we are working on it. Please stay with us.
 == Changelog ==
 
 = 1.9 =
-* Minor issue fixed
+* Code optimized
+* Bug fixed
 
 = 1.8 =
 * Minor issue fixed
