@@ -260,11 +260,21 @@ class HMNFW_Widget extends WP_Widget {
 			delete_transient( 'hmnfw_api_cached_data' );
 			add_filter( 'https_ssl_verify', '__return_false' );
 			$urla = "https://newsapi.org/v2/top-headlines?sources={$source}&apiKey={$ap}";
-			$this->hmnfw_api = wp_remote_get($urla);
+
+			$headers = array(
+				'Content-Type' => 'application/json',
+				'User-Agent' => esc_html( get_bloginfo( 'name' ) ),
+			);
+
+			$this->hmnfw_api = wp_remote_get( $urla, array( 'headers' => $headers ) );
+
 			$this->hmnfw_api_data = (array)json_decode(wp_remote_retrieve_body( $this->hmnfw_api ));
+			
 			set_transient( 'hmnfw_api_cached_data', $this->hmnfw_api_data, 16*60 ); //
+			
 			$this->hmnfw_api_cached_data = get_transient( 'hmnfw_api_cached_data' );
-		}	
+		}
+		
 		return (!empty($this->hmnfw_api_cached_data['articles'])) ? $this->hmnfw_api_cached_data['articles'] : die($this->hmnfw_api_cached_data['message']);
 	}
 	
